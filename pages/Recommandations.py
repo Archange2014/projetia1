@@ -9,8 +9,4 @@ st.markdown("""
     - **Ciblez les clients en ligne pour Espresso et Cappuccino.**
     - **Lancez des promotions saisonnières pour le Latté.**
     """)
-uploaded_file = st.file_uploader("Téléchargez un fichier de données", type=["csv"])
-if uploaded_file:
-    data = pd.read_csv(uploaded_file)
-    st.write("Nouvelles données chargées :")
-    st.dataframe(data.head())
+
